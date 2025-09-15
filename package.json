@@ -1,0 +1,29 @@
+{
+  "name": "fronted_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8000 --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start-p 8000"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
+    "axios": "^1.11.0",
+    "class-validator": "^0.14.2",
+    "next": "15.5.2",
+    "pusher-js": "^8.4.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.62.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
